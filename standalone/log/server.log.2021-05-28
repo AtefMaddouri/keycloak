@@ -1,0 +1,1224 @@
+2021-05-28 08:59:22,330 INFO  [org.jboss.modules] (main) JBoss Modules version 1.10.2.Final
+2021-05-28 08:59:27,094 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final
+2021-05-28 08:59:27,129 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2021-05-28 08:59:27,511 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: Keycloak 12.0.4 (WildFly Core 13.0.3.Final) starting
+2021-05-28 08:59:27,516 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = G:\PFE-Project\keycloak-12.0.4\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_241\jre
+	java.io.tmpdir = C:\Users\Atef\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;G:\Wamp64\bin\php\php7.3.1;C:\Python34\Scripts\pip;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\python\Scripts\;C:\python\;C:\Users\Atef\AppData\Local\Microsoft\WindowsApps;C:\Users\Atef\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Atef\AppData\Roaming\Composer\vendor\bin;C:\Users\Atef\AppData\Local\GitHubDesktop\bin;C:\Users\Atef\AppData\Roaming\npm;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_241-b07
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_241
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.241-b07
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = G:\PFE-Project\keycloak-12.0.4
+	jboss.host.name = desktop-atef
+	jboss.modules.dir = G:\PFE-Project\keycloak-12.0.4\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-atef
+	jboss.qualified.host.name = desktop-atef
+	jboss.server.base.dir = G:\PFE-Project\keycloak-12.0.4\standalone
+	jboss.server.config.dir = G:\PFE-Project\keycloak-12.0.4\standalone\configuration
+	jboss.server.data.dir = G:\PFE-Project\keycloak-12.0.4\standalone\data
+	jboss.server.deploy.dir = G:\PFE-Project\keycloak-12.0.4\standalone\data\content
+	jboss.server.log.dir = G:\PFE-Project\keycloak-12.0.4\standalone\log
+	jboss.server.name = desktop-atef
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = G:\PFE-Project\keycloak-12.0.4\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:G:\PFE-Project\keycloak-12.0.4\standalone\configuration/logging.properties
+	module.path = G:\PFE-Project\keycloak-12.0.4\modules
+	org.jboss.boot.log.file = G:\PFE-Project\keycloak-12.0.4\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_241\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = G:\PFE-Project\keycloak-12.0.4\jboss-modules.jar -mp G:\PFE-Project\keycloak-12.0.4\modules org.jboss.as.standalone -Djboss.home.dir=G:\PFE-Project\keycloak-12.0.4
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp65001
+	sun.stdout.encoding = cp65001
+	user.country = US
+	user.country.format = FR
+	user.dir = G:\PFE-Project\keycloak-12.0.4\bin
+	user.home = C:\Users\Atef
+	user.language = en
+	user.language.format = fr
+	user.name = Atef
+	user.script = 
+	user.timezone = Africa/Luanda
+	user.variant = 
+2021-05-28 08:59:27,517 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=G:\PFE-Project\keycloak-12.0.4\standalone\log\server.log -Dlogging.configuration=file:G:\PFE-Project\keycloak-12.0.4\standalone\configuration/logging.properties 
+2021-05-28 08:59:30,433 INFO  [org.wildfly.security] (ServerService Thread Pool -- 20) ELY00001: WildFly Elytron version 1.13.1.Final
+2021-05-28 08:59:37,397 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2021-05-28 08:59:37,521 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 12) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2021-05-28 08:59:37,764 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2021-05-28 08:59:37,946 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.8.2.Final
+2021-05-28 08:59:38,015 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 51) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2021-05-28 08:59:38,036 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.8.2.Final
+2021-05-28 08:59:38,016 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 49) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2021-05-28 08:59:38,067 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 52) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
+2021-05-28 08:59:38,143 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 37) WFLYCLINF0001: Activating Infinispan subsystem.
+2021-05-28 08:59:38,161 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 53) WFLYMETRICS0001: Activating Eclipse MicroProfile Metrics Subsystem
+2021-05-28 08:59:38,255 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.23.Final)
+2021-05-28 08:59:38,471 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 2.2.2.Final starting
+2021-05-28 08:59:39,024 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 43) WFLYNAM0001: Activating Naming Subsystem
+2021-05-28 08:59:39,349 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 48) WFLYSEC0002: Activating Security Subsystem
+2021-05-28 08:59:39,367 WARN  [org.wildfly.clustering.web.undertow] (ServerService Thread Pool -- 54) WFLYCLWEBUT0007: No routing provider found for default-server; using legacy provider based on static configuration
+2021-05-28 08:59:39,432 INFO  [org.jboss.as.security] (MSC service thread 1-8) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-00006
+2021-05-28 08:59:39,583 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 38) WFLYRS0016: RESTEasy version 3.13.2.Final
+2021-05-28 08:59:39,854 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 54) WFLYUT0014: Creating file handler for path 'G:\PFE-Project\keycloak-12.0.4/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2021-05-28 08:59:40,141 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 32) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2021-05-28 08:59:40,144 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2021-05-28 08:59:40,568 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2021-05-28 08:59:40,575 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2021-05-28 08:59:40,649 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 32) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.cj.jdbc.Driver (version 8.0)
+2021-05-28 08:59:40,651 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = mysql
+2021-05-28 08:59:41,061 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 36) WFLYIO001: Worker 'default' has auto-configured to 8 IO threads with 64 max task threads based on your 4 available processors
+2021-05-28 08:59:41,067 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2021-05-28 08:59:41,067 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2021-05-28 08:59:41,123 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2021-05-28 08:59:41,128 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2021-05-28 08:59:41,197 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.19.Final
+2021-05-28 08:59:41,532 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:8080
+2021-05-28 08:59:41,683 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0493: EJB subsystem suspension complete
+2021-05-28 08:59:41,890 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/KeycloakDS]
+2021-05-28 08:59:41,890 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2021-05-28 08:59:42,841 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+2021-05-28 08:59:42,994 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore G:\PFE-Project\keycloak-12.0.4\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2021-05-28 08:59:43,049 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory G:\PFE-Project\keycloak-12.0.4\standalone\deployments
+2021-05-28 08:59:43,080 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "keycloak-server.war" (runtime-name: "keycloak-server.war")
+2021-05-28 08:59:43,588 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 0.0.0.0:8443
+2021-05-28 08:59:45,961 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 56) ISPN000128: Infinispan version: Infinispan 'Corona Extra' 11.0.4.Final
+2021-05-28 08:59:46,249 INFO  [org.infinispan.CONFIG] (MSC service thread 1-2) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-05-28 08:59:46,253 INFO  [org.infinispan.CONFIG] (MSC service thread 1-2) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-05-28 08:59:46,477 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 56) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2021-05-28 08:59:46,477 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 57) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2021-05-28 08:59:46,959 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2021-05-28 08:59:46,994 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started offlineSessions cache from keycloak container
+2021-05-28 08:59:46,995 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started authenticationSessions cache from keycloak container
+2021-05-28 08:59:46,995 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 68) WFLYCLINF0002: Started actionTokens cache from keycloak container
+2021-05-28 08:59:46,996 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 65) WFLYCLINF0002: Started sessions cache from keycloak container
+2021-05-28 08:59:46,996 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0002: Started loginFailures cache from keycloak container
+2021-05-28 08:59:46,998 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) WFLYCLINF0002: Started offlineClientSessions cache from keycloak container
+2021-05-28 08:59:46,998 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started clientSessions cache from keycloak container
+2021-05-28 08:59:46,996 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started work cache from keycloak container
+2021-05-28 08:59:47,062 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started authorization cache from keycloak container
+2021-05-28 08:59:47,063 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 67) WFLYCLINF0002: Started keys cache from keycloak container
+2021-05-28 08:59:47,064 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started realms cache from keycloak container
+2021-05-28 08:59:47,065 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0002: Started users cache from keycloak container
+2021-05-28 08:59:48,520 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0273: Excluded subsystem webservices via jboss-deployment-structure.xml does not exist.
+2021-05-28 08:59:51,099 INFO  [org.keycloak.services] (ServerService Thread Pool -- 57) KC-SERVICES0001: Loading config from standalone.xml or domain.xml
+2021-05-28 08:59:52,589 INFO  [org.keycloak.url.DefaultHostnameProviderFactory] (ServerService Thread Pool -- 57) Frontend: <request>, Admin: <frontend>, Backend: <request>
+2021-05-28 08:59:52,989 WARN  [org.infinispan.encoding.impl.StorageConfigurationManager] (ServerService Thread Pool -- 57) ISPN000599: Configuration for cache 'realmRevisions' does not define the encoding for keys or values. If you use operations that require data conversion or queries, you should configure the cache with a specific MediaType for keys or values.
+2021-05-28 08:59:52,994 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started realmRevisions cache from keycloak container
+2021-05-28 08:59:52,995 WARN  [org.infinispan.encoding.impl.StorageConfigurationManager] (ServerService Thread Pool -- 57) ISPN000599: Configuration for cache 'userRevisions' does not define the encoding for keys or values. If you use operations that require data conversion or queries, you should configure the cache with a specific MediaType for keys or values.
+2021-05-28 08:59:52,998 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started userRevisions cache from keycloak container
+2021-05-28 08:59:53,000 WARN  [org.infinispan.encoding.impl.StorageConfigurationManager] (ServerService Thread Pool -- 57) ISPN000599: Configuration for cache 'authorizationRevisions' does not define the encoding for keys or values. If you use operations that require data conversion or queries, you should configure the cache with a specific MediaType for keys or values.
+2021-05-28 08:59:53,005 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started authorizationRevisions cache from keycloak container
+2021-05-28 08:59:53,006 INFO  [org.keycloak.connections.infinispan.DefaultInfinispanConnectionProviderFactory] (ServerService Thread Pool -- 57) Node name: desktop-atef, Site name: null
+2021-05-28 08:59:55,723 INFO  [org.keycloak.connections.jpa.DefaultJpaConnectionProviderFactory] (ServerService Thread Pool -- 57) Database info: {databaseUrl=jdbc:mysql://localhost:3306/keycloak?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC, databaseUser=keycloak@localhost, databaseProduct=MySQL 8.0.21, databaseDriver=MySQL Connector/J mysql-connector-java-8.0.21 (Revision: 33f65445a1bcc544eb0120491926484da168f199)}
+2021-05-28 08:59:59,527 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 57) HHH000204: Processing PersistenceUnitInfo [
+	name: keycloak-default
+	...]
+2021-05-28 08:59:59,695 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 57) HHH000412: Hibernate Core {5.3.20.Final}
+2021-05-28 08:59:59,697 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 57) HHH000206: hibernate.properties not found
+2021-05-28 09:00:00,296 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 57) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2021-05-28 09:00:01,031 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 57) HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-05-28 09:00:01,109 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 57) Envers integration enabled? : true
+2021-05-28 09:00:01,805 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 57) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2021-05-28 09:00:01,893 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 57) HV000001: Hibernate Validator 6.0.21.Final
+2021-05-28 09:00:03,974 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 57) HHH000397: Using ASTQueryTranslatorFactory
+2021-05-28 09:00:08,198 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 09:00:08,200 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002200: Adding class resource org.keycloak.services.resources.ThemeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 09:00:08,200 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002200: Adding class resource org.keycloak.services.resources.JsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 09:00:08,201 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002205: Adding provider class org.keycloak.services.error.KeycloakErrorHandler from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 09:00:08,202 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002205: Adding provider class org.keycloak.services.filters.KeycloakSecurityHeadersFilter from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 09:00:08,203 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002210: Adding provider singleton org.keycloak.services.util.ObjectMapperResolver from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 09:00:08,204 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.admin.AdminRoot from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 09:00:08,204 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RobotsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 09:00:08,205 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.WelcomeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 09:00:08,205 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RealmsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 09:00:08,904 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 57) WFLYUT0021: Registered web context: '/auth' for server 'default-server'
+2021-05-28 09:00:10,725 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 55) WFLYSRV0010: Deployed "keycloak-server.war" (runtime-name : "keycloak-server.war")
+2021-05-28 09:00:10,844 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2021-05-28 09:00:10,846 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 12.0.4 (WildFly Core 13.0.3.Final) started in 56660ms - Started 590 of 868 services (585 services are lazy, passive or on-demand)
+2021-05-28 09:00:10,864 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://0.0.0.0:9990/management
+2021-05-28 09:00:10,864 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://0.0.0.0:9990
+2021-05-28 13:37:47,174 INFO  [org.jboss.modules] (main) JBoss Modules version 1.10.2.Final
+2021-05-28 13:37:51,183 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final
+2021-05-28 13:37:51,199 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2021-05-28 13:37:51,630 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: Keycloak 12.0.4 (WildFly Core 13.0.3.Final) starting
+2021-05-28 13:37:51,632 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = G:\PFE-Project\keycloak-12.0.4\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_241\jre
+	java.io.tmpdir = C:\Users\Atef\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;G:\Wamp64\bin\php\php7.3.1;C:\Python34\Scripts\pip;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\python\Scripts\;C:\python\;C:\Users\Atef\AppData\Local\Microsoft\WindowsApps;C:\Users\Atef\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Atef\AppData\Roaming\Composer\vendor\bin;C:\Users\Atef\AppData\Local\GitHubDesktop\bin;C:\Users\Atef\AppData\Roaming\npm;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_241-b07
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_241
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.241-b07
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = G:\PFE-Project\keycloak-12.0.4
+	jboss.host.name = desktop-atef
+	jboss.modules.dir = G:\PFE-Project\keycloak-12.0.4\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-atef
+	jboss.qualified.host.name = desktop-atef
+	jboss.server.base.dir = G:\PFE-Project\keycloak-12.0.4\standalone
+	jboss.server.config.dir = G:\PFE-Project\keycloak-12.0.4\standalone\configuration
+	jboss.server.data.dir = G:\PFE-Project\keycloak-12.0.4\standalone\data
+	jboss.server.deploy.dir = G:\PFE-Project\keycloak-12.0.4\standalone\data\content
+	jboss.server.log.dir = G:\PFE-Project\keycloak-12.0.4\standalone\log
+	jboss.server.name = desktop-atef
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = G:\PFE-Project\keycloak-12.0.4\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:G:\PFE-Project\keycloak-12.0.4\standalone\configuration/logging.properties
+	module.path = G:\PFE-Project\keycloak-12.0.4\modules
+	org.jboss.boot.log.file = G:\PFE-Project\keycloak-12.0.4\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_241\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = G:\PFE-Project\keycloak-12.0.4\jboss-modules.jar -mp G:\PFE-Project\keycloak-12.0.4\modules org.jboss.as.standalone -Djboss.home.dir=G:\PFE-Project\keycloak-12.0.4
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp65001
+	sun.stdout.encoding = cp65001
+	user.country = US
+	user.country.format = FR
+	user.dir = G:\PFE-Project\keycloak-12.0.4\bin
+	user.home = C:\Users\Atef
+	user.language = en
+	user.language.format = fr
+	user.name = Atef
+	user.script = 
+	user.timezone = Africa/Luanda
+	user.variant = 
+2021-05-28 13:37:51,633 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=G:\PFE-Project\keycloak-12.0.4\standalone\log\server.log -Dlogging.configuration=file:G:\PFE-Project\keycloak-12.0.4\standalone\configuration/logging.properties 
+2021-05-28 13:37:54,817 INFO  [org.wildfly.security] (ServerService Thread Pool -- 20) ELY00001: WildFly Elytron version 1.13.1.Final
+2021-05-28 13:38:01,737 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2021-05-28 13:38:01,783 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 21) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2021-05-28 13:38:01,927 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2021-05-28 13:38:02,012 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.8.2.Final
+2021-05-28 13:38:02,053 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.8.2.Final
+2021-05-28 13:38:02,116 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 51) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2021-05-28 13:38:02,121 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 49) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2021-05-28 13:38:02,138 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 37) WFLYCLINF0001: Activating Infinispan subsystem.
+2021-05-28 13:38:02,139 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 52) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
+2021-05-28 13:38:02,201 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.23.Final)
+2021-05-28 13:38:02,207 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 53) WFLYMETRICS0001: Activating Eclipse MicroProfile Metrics Subsystem
+2021-05-28 13:38:02,656 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 48) WFLYSEC0002: Activating Security Subsystem
+2021-05-28 13:38:02,659 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 43) WFLYNAM0001: Activating Naming Subsystem
+2021-05-28 13:38:02,711 INFO  [org.jboss.as.security] (MSC service thread 1-2) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-00006
+2021-05-28 13:38:02,977 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 38) WFLYRS0016: RESTEasy version 3.13.2.Final
+2021-05-28 13:38:03,155 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 2.2.2.Final starting
+2021-05-28 13:38:03,186 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 32) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2021-05-28 13:38:03,215 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 36) WFLYIO001: Worker 'default' has auto-configured to 8 IO threads with 64 max task threads based on your 4 available processors
+2021-05-28 13:38:03,251 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2021-05-28 13:38:03,393 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2021-05-28 13:38:03,395 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2021-05-28 13:38:03,485 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.19.Final
+2021-05-28 13:38:03,488 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2021-05-28 13:38:03,488 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2021-05-28 13:38:03,983 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0493: EJB subsystem suspension complete
+2021-05-28 13:38:04,009 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 32) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.cj.jdbc.Driver (version 8.0)
+2021-05-28 13:38:04,011 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = mysql
+2021-05-28 13:38:04,187 WARN  [org.wildfly.clustering.web.undertow] (ServerService Thread Pool -- 54) WFLYCLWEBUT0007: No routing provider found for default-server; using legacy provider based on static configuration
+2021-05-28 13:38:04,259 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 54) WFLYUT0014: Creating file handler for path 'G:\PFE-Project\keycloak-12.0.4/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2021-05-28 13:38:04,260 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/KeycloakDS]
+2021-05-28 13:38:04,267 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2021-05-28 13:38:04,298 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2021-05-28 13:38:04,321 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+2021-05-28 13:38:04,390 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:8080
+2021-05-28 13:38:05,869 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+2021-05-28 13:38:05,913 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-8) WFLYDM0111: Keystore G:\PFE-Project\keycloak-12.0.4\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2021-05-28 13:38:05,950 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory G:\PFE-Project\keycloak-12.0.4\standalone\deployments
+2021-05-28 13:38:05,996 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "keycloak-server.war" (runtime-name: "keycloak-server.war")
+2021-05-28 13:38:06,245 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS listener https listening on 0.0.0.0:8443
+2021-05-28 13:38:08,177 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 57) ISPN000128: Infinispan version: Infinispan 'Corona Extra' 11.0.4.Final
+2021-05-28 13:38:08,308 INFO  [org.infinispan.CONFIG] (MSC service thread 1-4) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-05-28 13:38:08,312 INFO  [org.infinispan.CONFIG] (MSC service thread 1-4) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-05-28 13:38:08,463 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 56) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2021-05-28 13:38:08,463 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 57) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2021-05-28 13:38:08,790 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2021-05-28 13:38:08,828 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0002: Started loginFailures cache from keycloak container
+2021-05-28 13:38:08,830 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started offlineClientSessions cache from keycloak container
+2021-05-28 13:38:08,831 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started sessions cache from keycloak container
+2021-05-28 13:38:08,832 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 67) WFLYCLINF0002: Started work cache from keycloak container
+2021-05-28 13:38:08,833 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started authenticationSessions cache from keycloak container
+2021-05-28 13:38:08,835 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0002: Started clientSessions cache from keycloak container
+2021-05-28 13:38:08,837 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) WFLYCLINF0002: Started actionTokens cache from keycloak container
+2021-05-28 13:38:08,836 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 65) WFLYCLINF0002: Started offlineSessions cache from keycloak container
+2021-05-28 13:38:08,893 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started realms cache from keycloak container
+2021-05-28 13:38:08,895 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started keys cache from keycloak container
+2021-05-28 13:38:08,895 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started users cache from keycloak container
+2021-05-28 13:38:08,897 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 68) WFLYCLINF0002: Started authorization cache from keycloak container
+2021-05-28 13:38:09,824 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0273: Excluded subsystem webservices via jboss-deployment-structure.xml does not exist.
+2021-05-28 13:38:11,263 INFO  [org.keycloak.services] (ServerService Thread Pool -- 68) KC-SERVICES0001: Loading config from standalone.xml or domain.xml
+2021-05-28 13:38:12,473 INFO  [org.keycloak.url.DefaultHostnameProviderFactory] (ServerService Thread Pool -- 68) Frontend: <request>, Admin: <frontend>, Backend: <request>
+2021-05-28 13:38:12,950 WARN  [org.infinispan.encoding.impl.StorageConfigurationManager] (ServerService Thread Pool -- 68) ISPN000599: Configuration for cache 'realmRevisions' does not define the encoding for keys or values. If you use operations that require data conversion or queries, you should configure the cache with a specific MediaType for keys or values.
+2021-05-28 13:38:12,957 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 68) WFLYCLINF0002: Started realmRevisions cache from keycloak container
+2021-05-28 13:38:12,959 WARN  [org.infinispan.encoding.impl.StorageConfigurationManager] (ServerService Thread Pool -- 68) ISPN000599: Configuration for cache 'userRevisions' does not define the encoding for keys or values. If you use operations that require data conversion or queries, you should configure the cache with a specific MediaType for keys or values.
+2021-05-28 13:38:12,962 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 68) WFLYCLINF0002: Started userRevisions cache from keycloak container
+2021-05-28 13:38:12,965 WARN  [org.infinispan.encoding.impl.StorageConfigurationManager] (ServerService Thread Pool -- 68) ISPN000599: Configuration for cache 'authorizationRevisions' does not define the encoding for keys or values. If you use operations that require data conversion or queries, you should configure the cache with a specific MediaType for keys or values.
+2021-05-28 13:38:12,970 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 68) WFLYCLINF0002: Started authorizationRevisions cache from keycloak container
+2021-05-28 13:38:13,001 INFO  [org.keycloak.connections.infinispan.DefaultInfinispanConnectionProviderFactory] (ServerService Thread Pool -- 68) Node name: desktop-atef, Site name: null
+2021-05-28 13:38:14,526 INFO  [org.keycloak.connections.jpa.DefaultJpaConnectionProviderFactory] (ServerService Thread Pool -- 68) Database info: {databaseUrl=jdbc:mysql://localhost:3306/keycloak?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC, databaseUser=keycloak@localhost, databaseProduct=MySQL 8.0.21, databaseDriver=MySQL Connector/J mysql-connector-java-8.0.21 (Revision: 33f65445a1bcc544eb0120491926484da168f199)}
+2021-05-28 13:38:17,651 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 68) HHH000204: Processing PersistenceUnitInfo [
+	name: keycloak-default
+	...]
+2021-05-28 13:38:17,886 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 68) HHH000412: Hibernate Core {5.3.20.Final}
+2021-05-28 13:38:17,888 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 68) HHH000206: hibernate.properties not found
+2021-05-28 13:38:18,599 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 68) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2021-05-28 13:38:19,005 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 68) HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-05-28 13:38:19,144 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 68) Envers integration enabled? : true
+2021-05-28 13:38:19,934 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 68) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2021-05-28 13:38:20,043 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 68) HV000001: Hibernate Validator 6.0.21.Final
+2021-05-28 13:38:22,187 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 68) HHH000397: Using ASTQueryTranslatorFactory
+2021-05-28 13:38:24,631 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 68) RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 13:38:24,634 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 68) RESTEASY002200: Adding class resource org.keycloak.services.resources.ThemeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 13:38:24,635 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 68) RESTEASY002205: Adding provider class org.keycloak.services.error.KeycloakErrorHandler from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 13:38:24,638 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 68) RESTEASY002205: Adding provider class org.keycloak.services.filters.KeycloakSecurityHeadersFilter from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 13:38:24,638 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 68) RESTEASY002200: Adding class resource org.keycloak.services.resources.JsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 13:38:24,639 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 68) RESTEASY002210: Adding provider singleton org.keycloak.services.util.ObjectMapperResolver from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 13:38:24,639 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 68) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.admin.AdminRoot from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 13:38:24,640 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 68) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RobotsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 13:38:24,640 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 68) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RealmsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 13:38:24,641 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 68) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.WelcomeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 13:38:25,119 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 68) WFLYUT0021: Registered web context: '/auth' for server 'default-server'
+2021-05-28 13:38:26,657 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 55) WFLYSRV0010: Deployed "keycloak-server.war" (runtime-name : "keycloak-server.war")
+2021-05-28 13:38:26,741 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2021-05-28 13:38:26,745 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 12.0.4 (WildFly Core 13.0.3.Final) started in 45931ms - Started 590 of 868 services (585 services are lazy, passive or on-demand)
+2021-05-28 13:38:26,760 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://0.0.0.0:9990/management
+2021-05-28 13:38:26,760 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://0.0.0.0:9990
+2021-05-28 16:58:44,337 WARN  [org.keycloak.events] (default task-13) type=REFRESH_TOKEN_ERROR, realmId=master, clientId=security-admin-console, userId=null, ipAddress=127.0.0.1, error=invalid_token, grant_type=refresh_token, client_auth_method=client-secret
+2021-05-28 22:38:25,765 WARN  [org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory] (Timer-2) IJ030027: Destroying connection that is not valid, due to the following exception: com.mysql.cj.jdbc.ConnectionImpl@1ffa0d5b: java.sql.SQLException: Ping failed: java.lang.reflect.InvocationTargetException
+	at org.jboss.jca.adapters.jdbc.extensions.mysql.MySQLValidConnectionChecker.isValidConnection(MySQLValidConnectionChecker.java:93)
+	at org.jboss.jca.adapters.jdbc.BaseWrapperManagedConnectionFactory.isValidConnection(BaseWrapperManagedConnectionFactory.java:1285)
+	at org.jboss.jca.adapters.jdbc.BaseWrapperManagedConnectionFactory.getInvalidConnections(BaseWrapperManagedConnectionFactory.java:1098)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.getConnection(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:379)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getTransactionNewConnection(AbstractPool.java:714)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getConnection(AbstractPool.java:613)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:624)
+	at org.jboss.jca.core.connectionmanager.tx.TxConnectionManagerImpl.getManagedConnection(TxConnectionManagerImpl.java:440)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.allocateConnection(AbstractConnectionManager.java:789)
+	at org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:151)
+	at org.jboss.as.connector.subsystems.datasources.WildFlyDataSource.getConnection(WildFlyDataSource.java:64)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:35)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:106)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:136)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:50)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:149)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:176)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:151)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:2082)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2012)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1990)
+	at org.hibernate.loader.Loader.scroll(Loader.java:2863)
+	at org.hibernate.loader.hql.QueryLoader.scroll(QueryLoader.java:574)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.scroll(QueryTranslatorImpl.java:447)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performScroll(HQLQueryPlan.java:354)
+	at org.hibernate.internal.SessionImpl.scroll(SessionImpl.java:1658)
+	at org.hibernate.query.internal.AbstractProducedQuery.doScroll(AbstractProducedQuery.java:1537)
+	at org.hibernate.query.internal.AbstractProducedQuery.scroll(AbstractProducedQuery.java:1523)
+	at org.hibernate.query.internal.AbstractProducedQuery.stream(AbstractProducedQuery.java:1547)
+	at org.hibernate.query.Query.getResultStream(Query.java:1107)
+	at org.keycloak.models.jpa.JpaRealmProvider.getRealms(JpaRealmProvider.java:130)
+	at org.keycloak.models.jpa.JpaRealmProvider.getRealmsStream(JpaRealmProvider.java:126)
+	at org.keycloak.models.cache.infinispan.RealmCacheSession.getRealmsStream(RealmCacheSession.java:478)
+	at org.keycloak.services.scheduled.ClearExpiredEvents.run(ClearExpiredEvents.java:33)
+	at org.keycloak.services.scheduled.ClusterAwareScheduledTaskRunner$1.call(ClusterAwareScheduledTaskRunner.java:56)
+	at org.keycloak.services.scheduled.ClusterAwareScheduledTaskRunner$1.call(ClusterAwareScheduledTaskRunner.java:52)
+	at org.keycloak.cluster.infinispan.InfinispanClusterProvider.executeIfNotExecuted(InfinispanClusterProvider.java:78)
+	at org.keycloak.services.scheduled.ClusterAwareScheduledTaskRunner.runTask(ClusterAwareScheduledTaskRunner.java:52)
+	at org.keycloak.services.scheduled.ScheduledTaskRunner.run(ScheduledTaskRunner.java:45)
+	at org.keycloak.timer.basic.BasicTimerProvider$1.run(BasicTimerProvider.java:51)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor360.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.jca.adapters.jdbc.extensions.mysql.MySQLValidConnectionChecker.isValidConnection(MySQLValidConnectionChecker.java:83)
+	... 42 more
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 715 milliseconds ago. The last packet sent successfully to the server was 715 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.pingInternal(ConnectionImpl.java:1519)
+	at com.mysql.cj.jdbc.ConnectionImpl.ping(ConnectionImpl.java:1513)
+	... 46 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 715 milliseconds ago. The last packet sent successfully to the server was 715 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:538)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:702)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:641)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:128)
+	at com.mysql.cj.NativeSession.sendCommand(NativeSession.java:311)
+	at com.mysql.cj.NativeSession.ping(NativeSession.java:1151)
+	at com.mysql.cj.jdbc.ConnectionImpl.pingInternal(ConnectionImpl.java:1518)
+	... 47 more
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:67)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:532)
+	... 53 more
+
+2021-05-28 22:38:26,834 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (Timer-2) IJ000621: Destroying connection that could not be validated: org.jboss.jca.core.connectionmanager.listener.TxConnectionListener@68932df2[state=NORMAL managed connection=org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@1e030c8f connection handles=0 lastReturned=1622237005147 lastValidated=1622217348774 lastCheckedOut=1622237005146 trackByTx=false pool=org.jboss.jca.core.connectionmanager.pool.strategy.OnePool@14038ce9 mcp=SemaphoreConcurrentLinkedQueueManagedConnectionPool@150da39d[pool=KeycloakDS] xaResource=LocalXAResourceImpl@6cb78a34[connectionListener=68932df2 connectionManager=6f4f1371 warned=false currentXid=null productName=MySQL productVersion=8.0.21 jndiName=java:jboss/datasources/KeycloakDS] txSync=null]
+2021-05-28 22:38:29,646 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (Timer-2) IJ000604: Throwable while attempting to get a new connection: null: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:345)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:352)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:287)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.createConnectionEventListener(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:1322)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.getConnection(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:499)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getTransactionNewConnection(AbstractPool.java:714)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getConnection(AbstractPool.java:613)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:624)
+	at org.jboss.jca.core.connectionmanager.tx.TxConnectionManagerImpl.getManagedConnection(TxConnectionManagerImpl.java:440)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.allocateConnection(AbstractConnectionManager.java:789)
+	at org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:151)
+	at org.jboss.as.connector.subsystems.datasources.WildFlyDataSource.getConnection(WildFlyDataSource.java:64)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:35)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:106)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:136)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:50)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:149)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:176)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:151)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:2082)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2012)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1990)
+	at org.hibernate.loader.Loader.scroll(Loader.java:2863)
+	at org.hibernate.loader.hql.QueryLoader.scroll(QueryLoader.java:574)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.scroll(QueryTranslatorImpl.java:447)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performScroll(HQLQueryPlan.java:354)
+	at org.hibernate.internal.SessionImpl.scroll(SessionImpl.java:1658)
+	at org.hibernate.query.internal.AbstractProducedQuery.doScroll(AbstractProducedQuery.java:1537)
+	at org.hibernate.query.internal.AbstractProducedQuery.scroll(AbstractProducedQuery.java:1523)
+	at org.hibernate.query.internal.AbstractProducedQuery.stream(AbstractProducedQuery.java:1547)
+	at org.hibernate.query.Query.getResultStream(Query.java:1107)
+	at org.keycloak.models.jpa.JpaRealmProvider.getRealms(JpaRealmProvider.java:130)
+	at org.keycloak.models.jpa.JpaRealmProvider.getRealmsStream(JpaRealmProvider.java:126)
+	at org.keycloak.models.cache.infinispan.RealmCacheSession.getRealmsStream(RealmCacheSession.java:478)
+	at org.keycloak.services.scheduled.ClearExpiredEvents.run(ClearExpiredEvents.java:33)
+	at org.keycloak.services.scheduled.ClusterAwareScheduledTaskRunner$1.call(ClusterAwareScheduledTaskRunner.java:56)
+	at org.keycloak.services.scheduled.ClusterAwareScheduledTaskRunner$1.call(ClusterAwareScheduledTaskRunner.java:52)
+	at org.keycloak.cluster.infinispan.InfinispanClusterProvider.executeIfNotExecuted(InfinispanClusterProvider.java:78)
+	at org.keycloak.services.scheduled.ClusterAwareScheduledTaskRunner.runTask(ClusterAwareScheduledTaskRunner.java:52)
+	at org.keycloak.services.scheduled.ScheduledTaskRunner.run(ScheduledTaskRunner.java:45)
+	at org.keycloak.timer.basic.BasicTimerProvider$1.run(BasicTimerProvider.java:51)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:321)
+	... 43 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 47 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 50 more
+
+2021-05-28 22:38:29,947 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (Timer-2) SQL Error: 0, SQLState: null
+2021-05-28 22:38:30,024 ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (Timer-2) javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:jboss/datasources/KeycloakDS
+2021-05-28 22:38:30,559 ERROR [org.keycloak.services] (Timer-2) KC-SERVICES0089: Failed to run scheduled task ClearExpiredEvents: org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:47)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:109)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:136)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:50)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:149)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:176)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:151)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:2082)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2012)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1990)
+	at org.hibernate.loader.Loader.scroll(Loader.java:2863)
+	at org.hibernate.loader.hql.QueryLoader.scroll(QueryLoader.java:574)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.scroll(QueryTranslatorImpl.java:447)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performScroll(HQLQueryPlan.java:354)
+	at org.hibernate.internal.SessionImpl.scroll(SessionImpl.java:1658)
+	at org.hibernate.query.internal.AbstractProducedQuery.doScroll(AbstractProducedQuery.java:1537)
+	at org.hibernate.query.internal.AbstractProducedQuery.scroll(AbstractProducedQuery.java:1523)
+	at org.hibernate.query.internal.AbstractProducedQuery.stream(AbstractProducedQuery.java:1547)
+	at org.hibernate.query.Query.getResultStream(Query.java:1107)
+	at org.keycloak.models.jpa.JpaRealmProvider.getRealms(JpaRealmProvider.java:130)
+	at org.keycloak.models.jpa.JpaRealmProvider.getRealmsStream(JpaRealmProvider.java:126)
+	at org.keycloak.models.cache.infinispan.RealmCacheSession.getRealmsStream(RealmCacheSession.java:478)
+	at org.keycloak.services.scheduled.ClearExpiredEvents.run(ClearExpiredEvents.java:33)
+	at org.keycloak.services.scheduled.ClusterAwareScheduledTaskRunner$1.call(ClusterAwareScheduledTaskRunner.java:56)
+	at org.keycloak.services.scheduled.ClusterAwareScheduledTaskRunner$1.call(ClusterAwareScheduledTaskRunner.java:52)
+	at org.keycloak.cluster.infinispan.InfinispanClusterProvider.executeIfNotExecuted(InfinispanClusterProvider.java:78)
+	at org.keycloak.services.scheduled.ClusterAwareScheduledTaskRunner.runTask(ClusterAwareScheduledTaskRunner.java:52)
+	at org.keycloak.services.scheduled.ScheduledTaskRunner.run(ScheduledTaskRunner.java:45)
+	at org.keycloak.timer.basic.BasicTimerProvider$1.run(BasicTimerProvider.java:51)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.sql.SQLException: javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:jboss/datasources/KeycloakDS
+	at org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:159)
+	at org.jboss.as.connector.subsystems.datasources.WildFlyDataSource.getConnection(WildFlyDataSource.java:64)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:35)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:106)
+	... 29 more
+Caused by: javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:jboss/datasources/KeycloakDS
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:690)
+	at org.jboss.jca.core.connectionmanager.tx.TxConnectionManagerImpl.getManagedConnection(TxConnectionManagerImpl.java:440)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.allocateConnection(AbstractConnectionManager.java:789)
+	at org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:151)
+	... 33 more
+Caused by: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:345)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:352)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:287)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.createConnectionEventListener(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:1322)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.getConnection(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:499)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getTransactionNewConnection(AbstractPool.java:714)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getConnection(AbstractPool.java:613)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:624)
+	... 36 more
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:321)
+	... 43 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 47 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 50 more
+
+2021-05-28 22:38:32,900 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (Timer-2) IJ000604: Throwable while attempting to get a new connection: null: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:345)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:352)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:287)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.createConnectionEventListener(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:1322)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.getConnection(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:499)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getTransactionNewConnection(AbstractPool.java:714)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getConnection(AbstractPool.java:613)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:624)
+	at org.jboss.jca.core.connectionmanager.tx.TxConnectionManagerImpl.getManagedConnection(TxConnectionManagerImpl.java:440)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.allocateConnection(AbstractConnectionManager.java:789)
+	at org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:151)
+	at org.jboss.as.connector.subsystems.datasources.WildFlyDataSource.getConnection(WildFlyDataSource.java:64)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:35)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:106)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:136)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:50)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:149)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:176)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:151)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:2082)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2012)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1990)
+	at org.hibernate.loader.Loader.scroll(Loader.java:2863)
+	at org.hibernate.loader.hql.QueryLoader.scroll(QueryLoader.java:574)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.scroll(QueryTranslatorImpl.java:447)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performScroll(HQLQueryPlan.java:354)
+	at org.hibernate.internal.SessionImpl.scroll(SessionImpl.java:1658)
+	at org.hibernate.query.internal.AbstractProducedQuery.doScroll(AbstractProducedQuery.java:1537)
+	at org.hibernate.query.internal.AbstractProducedQuery.scroll(AbstractProducedQuery.java:1523)
+	at org.hibernate.query.internal.AbstractProducedQuery.stream(AbstractProducedQuery.java:1547)
+	at org.hibernate.query.Query.getResultStream(Query.java:1107)
+	at org.keycloak.models.jpa.JpaRealmProvider.getRealms(JpaRealmProvider.java:130)
+	at org.keycloak.models.jpa.JpaRealmProvider.getRealmsStream(JpaRealmProvider.java:126)
+	at org.keycloak.models.cache.infinispan.RealmCacheSession.getRealmsStream(RealmCacheSession.java:478)
+	at org.keycloak.services.scheduled.ClearExpiredUserSessions.run(ClearExpiredUserSessions.java:35)
+	at org.keycloak.services.scheduled.ScheduledTaskRunner.runTask(ScheduledTaskRunner.java:61)
+	at org.keycloak.services.scheduled.ScheduledTaskRunner.run(ScheduledTaskRunner.java:45)
+	at org.keycloak.timer.basic.BasicTimerProvider$1.run(BasicTimerProvider.java:51)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:321)
+	... 40 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 44 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 47 more
+
+2021-05-28 22:38:33,006 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (Timer-2) SQL Error: 0, SQLState: null
+2021-05-28 22:38:33,006 ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (Timer-2) javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:jboss/datasources/KeycloakDS
+2021-05-28 22:38:33,006 ERROR [org.keycloak.services] (Timer-2) KC-SERVICES0089: Failed to run scheduled task ClearExpiredUserSessions: org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:47)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:109)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:136)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:50)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:149)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:176)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:151)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:2082)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2012)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1990)
+	at org.hibernate.loader.Loader.scroll(Loader.java:2863)
+	at org.hibernate.loader.hql.QueryLoader.scroll(QueryLoader.java:574)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.scroll(QueryTranslatorImpl.java:447)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performScroll(HQLQueryPlan.java:354)
+	at org.hibernate.internal.SessionImpl.scroll(SessionImpl.java:1658)
+	at org.hibernate.query.internal.AbstractProducedQuery.doScroll(AbstractProducedQuery.java:1537)
+	at org.hibernate.query.internal.AbstractProducedQuery.scroll(AbstractProducedQuery.java:1523)
+	at org.hibernate.query.internal.AbstractProducedQuery.stream(AbstractProducedQuery.java:1547)
+	at org.hibernate.query.Query.getResultStream(Query.java:1107)
+	at org.keycloak.models.jpa.JpaRealmProvider.getRealms(JpaRealmProvider.java:130)
+	at org.keycloak.models.jpa.JpaRealmProvider.getRealmsStream(JpaRealmProvider.java:126)
+	at org.keycloak.models.cache.infinispan.RealmCacheSession.getRealmsStream(RealmCacheSession.java:478)
+	at org.keycloak.services.scheduled.ClearExpiredUserSessions.run(ClearExpiredUserSessions.java:35)
+	at org.keycloak.services.scheduled.ScheduledTaskRunner.runTask(ScheduledTaskRunner.java:61)
+	at org.keycloak.services.scheduled.ScheduledTaskRunner.run(ScheduledTaskRunner.java:45)
+	at org.keycloak.timer.basic.BasicTimerProvider$1.run(BasicTimerProvider.java:51)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.sql.SQLException: javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:jboss/datasources/KeycloakDS
+	at org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:159)
+	at org.jboss.as.connector.subsystems.datasources.WildFlyDataSource.getConnection(WildFlyDataSource.java:64)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:35)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:106)
+	... 26 more
+Caused by: javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:jboss/datasources/KeycloakDS
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:690)
+	at org.jboss.jca.core.connectionmanager.tx.TxConnectionManagerImpl.getManagedConnection(TxConnectionManagerImpl.java:440)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.allocateConnection(AbstractConnectionManager.java:789)
+	at org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:151)
+	... 30 more
+Caused by: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:345)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:352)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:287)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.createConnectionEventListener(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:1322)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.getConnection(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:499)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getTransactionNewConnection(AbstractPool.java:714)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getConnection(AbstractPool.java:613)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:624)
+	... 33 more
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:321)
+	... 40 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 44 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 47 more
+
+2021-05-28 22:38:35,177 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (Timer-2) IJ000604: Throwable while attempting to get a new connection: null: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:345)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:352)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:287)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.createConnectionEventListener(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:1322)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.getConnection(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:499)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getTransactionNewConnection(AbstractPool.java:714)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getConnection(AbstractPool.java:613)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:624)
+	at org.jboss.jca.core.connectionmanager.tx.TxConnectionManagerImpl.getManagedConnection(TxConnectionManagerImpl.java:440)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.allocateConnection(AbstractConnectionManager.java:789)
+	at org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:151)
+	at org.jboss.as.connector.subsystems.datasources.WildFlyDataSource.getConnection(WildFlyDataSource.java:64)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:35)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:106)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:136)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:50)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$1.doPrepare(StatementPreparerImpl.java:90)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:176)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareStatement(StatementPreparerImpl.java:81)
+	at org.hibernate.hql.internal.ast.exec.BasicExecutor.doExecute(BasicExecutor.java:87)
+	at org.hibernate.hql.internal.ast.exec.BasicExecutor.execute(BasicExecutor.java:59)
+	at org.hibernate.hql.internal.ast.exec.DeleteExecutor.execute(DeleteExecutor.java:109)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.executeUpdate(QueryTranslatorImpl.java:453)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performExecuteUpdate(HQLQueryPlan.java:378)
+	at org.hibernate.internal.SessionImpl.executeUpdate(SessionImpl.java:1550)
+	at org.hibernate.query.internal.AbstractProducedQuery.doExecuteUpdate(AbstractProducedQuery.java:1663)
+	at org.hibernate.query.internal.AbstractProducedQuery.executeUpdate(AbstractProducedQuery.java:1645)
+	at org.keycloak.models.jpa.JpaRealmProvider.removeExpiredClientInitialAccess(JpaRealmProvider.java:855)
+	at org.keycloak.models.cache.infinispan.RealmCacheSession.removeExpiredClientInitialAccess(RealmCacheSession.java:1241)
+	at org.keycloak.services.scheduled.ClearExpiredClientInitialAccessTokens.run(ClearExpiredClientInitialAccessTokens.java:30)
+	at org.keycloak.services.scheduled.ClusterAwareScheduledTaskRunner$1.call(ClusterAwareScheduledTaskRunner.java:56)
+	at org.keycloak.services.scheduled.ClusterAwareScheduledTaskRunner$1.call(ClusterAwareScheduledTaskRunner.java:52)
+	at org.keycloak.cluster.infinispan.InfinispanClusterProvider.executeIfNotExecuted(InfinispanClusterProvider.java:78)
+	at org.keycloak.services.scheduled.ClusterAwareScheduledTaskRunner.runTask(ClusterAwareScheduledTaskRunner.java:52)
+	at org.keycloak.services.scheduled.ScheduledTaskRunner.run(ScheduledTaskRunner.java:45)
+	at org.keycloak.timer.basic.BasicTimerProvider$1.run(BasicTimerProvider.java:51)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:321)
+	... 38 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 42 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 45 more
+
+2021-05-28 22:38:35,205 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (Timer-2) SQL Error: 0, SQLState: null
+2021-05-28 22:38:35,205 ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (Timer-2) javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:jboss/datasources/KeycloakDS
+2021-05-28 22:38:36,092 ERROR [org.keycloak.services] (Timer-2) KC-SERVICES0089: Failed to run scheduled task ClearExpiredClientInitialAccessTokens: javax.persistence.PersistenceException: org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:154)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:181)
+	at org.hibernate.query.internal.AbstractProducedQuery.executeUpdate(AbstractProducedQuery.java:1654)
+	at org.keycloak.models.jpa.JpaRealmProvider.removeExpiredClientInitialAccess(JpaRealmProvider.java:855)
+	at org.keycloak.models.cache.infinispan.RealmCacheSession.removeExpiredClientInitialAccess(RealmCacheSession.java:1241)
+	at org.keycloak.services.scheduled.ClearExpiredClientInitialAccessTokens.run(ClearExpiredClientInitialAccessTokens.java:30)
+	at org.keycloak.services.scheduled.ClusterAwareScheduledTaskRunner$1.call(ClusterAwareScheduledTaskRunner.java:56)
+	at org.keycloak.services.scheduled.ClusterAwareScheduledTaskRunner$1.call(ClusterAwareScheduledTaskRunner.java:52)
+	at org.keycloak.cluster.infinispan.InfinispanClusterProvider.executeIfNotExecuted(InfinispanClusterProvider.java:78)
+	at org.keycloak.services.scheduled.ClusterAwareScheduledTaskRunner.runTask(ClusterAwareScheduledTaskRunner.java:52)
+	at org.keycloak.services.scheduled.ScheduledTaskRunner.run(ScheduledTaskRunner.java:45)
+	at org.keycloak.timer.basic.BasicTimerProvider$1.run(BasicTimerProvider.java:51)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:47)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:109)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:136)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:50)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$1.doPrepare(StatementPreparerImpl.java:90)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:176)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareStatement(StatementPreparerImpl.java:81)
+	at org.hibernate.hql.internal.ast.exec.BasicExecutor.doExecute(BasicExecutor.java:87)
+	at org.hibernate.hql.internal.ast.exec.BasicExecutor.execute(BasicExecutor.java:59)
+	at org.hibernate.hql.internal.ast.exec.DeleteExecutor.execute(DeleteExecutor.java:109)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.executeUpdate(QueryTranslatorImpl.java:453)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performExecuteUpdate(HQLQueryPlan.java:378)
+	at org.hibernate.internal.SessionImpl.executeUpdate(SessionImpl.java:1550)
+	at org.hibernate.query.internal.AbstractProducedQuery.doExecuteUpdate(AbstractProducedQuery.java:1663)
+	at org.hibernate.query.internal.AbstractProducedQuery.executeUpdate(AbstractProducedQuery.java:1645)
+	... 11 more
+Caused by: java.sql.SQLException: javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:jboss/datasources/KeycloakDS
+	at org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:159)
+	at org.jboss.as.connector.subsystems.datasources.WildFlyDataSource.getConnection(WildFlyDataSource.java:64)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:35)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:106)
+	... 24 more
+Caused by: javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:jboss/datasources/KeycloakDS
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:690)
+	at org.jboss.jca.core.connectionmanager.tx.TxConnectionManagerImpl.getManagedConnection(TxConnectionManagerImpl.java:440)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.allocateConnection(AbstractConnectionManager.java:789)
+	at org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:151)
+	... 28 more
+Caused by: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:345)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:352)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:287)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.createConnectionEventListener(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:1322)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.getConnection(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:499)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getTransactionNewConnection(AbstractPool.java:714)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getConnection(AbstractPool.java:613)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:624)
+	... 31 more
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:321)
+	... 38 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 42 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 45 more
+
+2021-05-28 23:14:43,831 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0272: Suspending server
+2021-05-28 23:14:48,745 INFO  [org.jboss.as.ejb3] (Thread-2) WFLYEJB0493: EJB subsystem suspension complete
+2021-05-28 23:14:51,330 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2021-05-28 23:14:58,165 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/KeycloakDS]
+2021-05-28 23:14:58,508 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2021-05-28 23:15:00,018 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTPS listener https suspending
+2021-05-28 23:15:00,095 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 28) WFLYUT0022: Unregistered web context: '/auth' from server 'default-server'
+2021-05-28 23:15:00,970 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 0.0.0.0:8443
+2021-05-28 23:15:03,236 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = mysql
+2021-05-28 23:15:06,206 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2021-05-28 23:15:06,627 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2021-05-28 23:15:07,638 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0019: Host default-host stopping
+2021-05-28 23:15:10,954 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 80) WFLYCLINF0003: Stopped work cache from keycloak container
+2021-05-28 23:15:10,954 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 71) WFLYCLINF0003: Stopped loginFailures cache from keycloak container
+2021-05-28 23:15:10,954 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 28) WFLYCLINF0003: Stopped clientSessions cache from keycloak container
+2021-05-28 23:15:10,955 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 82) WFLYCLINF0003: Stopped actionTokens cache from keycloak container
+2021-05-28 23:15:10,955 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 72) WFLYCLINF0003: Stopped sessions cache from keycloak container
+2021-05-28 23:15:10,955 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 74) WFLYCLINF0003: Stopped offlineSessions cache from keycloak container
+2021-05-28 23:15:10,955 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 77) WFLYCLINF0003: Stopped authenticationSessions cache from keycloak container
+2021-05-28 23:15:10,966 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 75) WFLYCLINF0003: Stopped offlineClientSessions cache from keycloak container
+2021-05-28 23:15:11,416 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 79) WFLYCLINF0003: Stopped keys cache from keycloak container
+2021-05-28 23:15:12,316 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 76) WFLYCLINF0003: Stopped authorization cache from keycloak container
+2021-05-28 23:15:12,520 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) WFLYCLINF0003: Stopped users cache from keycloak container
+2021-05-28 23:15:12,521 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTP listener default suspending
+2021-05-28 23:15:12,711 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 0.0.0.0:8080
+2021-05-28 23:15:12,903 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 81) WFLYCLINF0003: Stopped realms cache from keycloak container
+2021-05-28 23:15:13,163 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2021-05-28 23:15:13,205 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 78) Stopping cache manager null on null
+2021-05-28 23:15:13,205 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 81) Stopping cache manager null on null
+2021-05-28 23:15:13,318 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0004: Undertow 2.2.2.Final stopping
+2021-05-28 23:15:13,897 WARN  [org.infinispan.CONTAINER] (expiration-thread--p10-t1) ISPN000026: Caught exception purging data container!: org.infinispan.commons.IllegalLifecycleStateException: Cannot wire or start components while the registry is not running
+	at org.infinispan.factories.impl.BasicComponentRegistryImpl.prepareWrapperChange(BasicComponentRegistryImpl.java:666)
+	at org.infinispan.factories.impl.BasicComponentRegistryImpl.wireWrapper(BasicComponentRegistryImpl.java:209)
+	at org.infinispan.factories.impl.BasicComponentRegistryImpl.access$1000(BasicComponentRegistryImpl.java:30)
+	at org.infinispan.factories.impl.BasicComponentRegistryImpl$ComponentWrapper.wire(BasicComponentRegistryImpl.java:797)
+	at org.infinispan.factories.impl.BasicComponentRegistryImpl$ComponentWrapper.running(BasicComponentRegistryImpl.java:773)
+	at org.infinispan.expiration.impl.ExpirationManagerImpl.processExpiration(ExpirationManagerImpl.java:114)
+	at org.infinispan.expiration.impl.ExpirationManagerImpl$ScheduledTask.run(ExpirationManagerImpl.java:302)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.jboss.as.clustering.context.ContextReferenceExecutor.execute(ContextReferenceExecutor.java:49)
+	at org.jboss.as.clustering.context.ContextualExecutor$1.run(ContextualExecutor.java:70)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-05-28 23:15:14,214 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment keycloak-server.war (runtime-name: keycloak-server.war) in 20851ms
+2021-05-28 23:15:15,917 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: Keycloak 12.0.4 (WildFly Core 13.0.3.Final) stopped in 22554ms
+2021-05-28 23:16:01,596 INFO  [org.jboss.modules] (main) JBoss Modules version 1.10.2.Final
+2021-05-28 23:16:09,746 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final
+2021-05-28 23:16:09,772 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2021-05-28 23:16:10,665 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: Keycloak 12.0.4 (WildFly Core 13.0.3.Final) starting
+2021-05-28 23:16:10,667 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = G:\PFE-Project\keycloak-12.0.4\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_241\jre
+	java.io.tmpdir = C:\Users\Atef\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;G:\Wamp64\bin\php\php7.3.1;C:\Python34\Scripts\pip;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\python\Scripts\;C:\python\;C:\Users\Atef\AppData\Local\Microsoft\WindowsApps;C:\Users\Atef\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Atef\AppData\Roaming\Composer\vendor\bin;C:\Users\Atef\AppData\Local\GitHubDesktop\bin;C:\Users\Atef\AppData\Roaming\npm;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_241-b07
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_241
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.241-b07
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = G:\PFE-Project\keycloak-12.0.4
+	jboss.host.name = desktop-atef
+	jboss.modules.dir = G:\PFE-Project\keycloak-12.0.4\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-atef
+	jboss.qualified.host.name = desktop-atef
+	jboss.server.base.dir = G:\PFE-Project\keycloak-12.0.4\standalone
+	jboss.server.config.dir = G:\PFE-Project\keycloak-12.0.4\standalone\configuration
+	jboss.server.data.dir = G:\PFE-Project\keycloak-12.0.4\standalone\data
+	jboss.server.deploy.dir = G:\PFE-Project\keycloak-12.0.4\standalone\data\content
+	jboss.server.log.dir = G:\PFE-Project\keycloak-12.0.4\standalone\log
+	jboss.server.name = desktop-atef
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = G:\PFE-Project\keycloak-12.0.4\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:G:\PFE-Project\keycloak-12.0.4\standalone\configuration/logging.properties
+	module.path = G:\PFE-Project\keycloak-12.0.4\modules
+	org.jboss.boot.log.file = G:\PFE-Project\keycloak-12.0.4\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_241\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = G:\PFE-Project\keycloak-12.0.4\jboss-modules.jar -mp G:\PFE-Project\keycloak-12.0.4\modules org.jboss.as.standalone -Djboss.home.dir=G:\PFE-Project\keycloak-12.0.4
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp65001
+	sun.stdout.encoding = cp65001
+	user.country = US
+	user.country.format = FR
+	user.dir = G:\PFE-Project\keycloak-12.0.4\bin
+	user.home = C:\Users\Atef
+	user.language = en
+	user.language.format = fr
+	user.name = Atef
+	user.script = 
+	user.timezone = Africa/Luanda
+	user.variant = 
+2021-05-28 23:16:10,668 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=G:\PFE-Project\keycloak-12.0.4\standalone\log\server.log -Dlogging.configuration=file:G:\PFE-Project\keycloak-12.0.4\standalone\configuration/logging.properties 
+2021-05-28 23:16:16,789 INFO  [org.wildfly.security] (ServerService Thread Pool -- 20) ELY00001: WildFly Elytron version 1.13.1.Final
+2021-05-28 23:16:25,013 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2021-05-28 23:16:25,036 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 23) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2021-05-28 23:16:25,207 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2021-05-28 23:16:25,534 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.8.2.Final
+2021-05-28 23:16:25,589 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 51) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2021-05-28 23:16:25,587 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 49) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2021-05-28 23:16:25,601 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.8.2.Final
+2021-05-28 23:16:25,685 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 37) WFLYCLINF0001: Activating Infinispan subsystem.
+2021-05-28 23:16:25,876 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 52) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
+2021-05-28 23:16:26,004 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 53) WFLYMETRICS0001: Activating Eclipse MicroProfile Metrics Subsystem
+2021-05-28 23:16:26,137 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 43) WFLYNAM0001: Activating Naming Subsystem
+2021-05-28 23:16:26,345 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.23.Final)
+2021-05-28 23:16:26,670 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 48) WFLYSEC0002: Activating Security Subsystem
+2021-05-28 23:16:26,776 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-00006
+2021-05-28 23:16:27,012 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 2.2.2.Final starting
+2021-05-28 23:16:27,252 WARN  [org.wildfly.clustering.web.undertow] (ServerService Thread Pool -- 54) WFLYCLWEBUT0007: No routing provider found for default-server; using legacy provider based on static configuration
+2021-05-28 23:16:27,560 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 32) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2021-05-28 23:16:27,567 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2021-05-28 23:16:27,791 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 54) WFLYUT0014: Creating file handler for path 'G:\PFE-Project\keycloak-12.0.4/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2021-05-28 23:16:27,805 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 38) WFLYRS0016: RESTEasy version 3.13.2.Final
+2021-05-28 23:16:28,032 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2021-05-28 23:16:28,074 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2021-05-28 23:16:28,559 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 32) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.cj.jdbc.Driver (version 8.0)
+2021-05-28 23:16:28,560 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = mysql
+2021-05-28 23:16:28,662 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 36) WFLYIO001: Worker 'default' has auto-configured to 8 IO threads with 64 max task threads based on your 4 available processors
+2021-05-28 23:16:28,677 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2021-05-28 23:16:28,676 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2021-05-28 23:16:28,860 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2021-05-28 23:16:28,870 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2021-05-28 23:16:29,205 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0493: EJB subsystem suspension complete
+2021-05-28 23:16:29,438 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:8080
+2021-05-28 23:16:29,458 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.19.Final
+2021-05-28 23:16:29,716 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/KeycloakDS]
+2021-05-28 23:16:29,722 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2021-05-28 23:16:31,139 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+2021-05-28 23:16:31,173 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore G:\PFE-Project\keycloak-12.0.4\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2021-05-28 23:16:31,206 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory G:\PFE-Project\keycloak-12.0.4\standalone\deployments
+2021-05-28 23:16:31,294 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "keycloak-server.war" (runtime-name: "keycloak-server.war")
+2021-05-28 23:16:32,374 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS listener https listening on 0.0.0.0:8443
+2021-05-28 23:16:35,075 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 57) ISPN000128: Infinispan version: Infinispan 'Corona Extra' 11.0.4.Final
+2021-05-28 23:16:35,238 INFO  [org.infinispan.CONFIG] (MSC service thread 1-7) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-05-28 23:16:35,241 INFO  [org.infinispan.CONFIG] (MSC service thread 1-7) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-05-28 23:16:35,443 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 57) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2021-05-28 23:16:35,443 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 56) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2021-05-28 23:16:35,851 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2021-05-28 23:16:35,875 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0002: Started sessions cache from keycloak container
+2021-05-28 23:16:35,880 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 67) WFLYCLINF0002: Started loginFailures cache from keycloak container
+2021-05-28 23:16:35,880 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0002: Started offlineClientSessions cache from keycloak container
+2021-05-28 23:16:35,888 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) WFLYCLINF0002: Started work cache from keycloak container
+2021-05-28 23:16:35,889 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started authenticationSessions cache from keycloak container
+2021-05-28 23:16:35,892 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 68) WFLYCLINF0002: Started offlineSessions cache from keycloak container
+2021-05-28 23:16:35,893 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 65) WFLYCLINF0002: Started actionTokens cache from keycloak container
+2021-05-28 23:16:35,894 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started clientSessions cache from keycloak container
+2021-05-28 23:16:36,056 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started keys cache from keycloak container
+2021-05-28 23:16:36,072 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started realms cache from keycloak container
+2021-05-28 23:16:36,077 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started users cache from keycloak container
+2021-05-28 23:16:36,079 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started authorization cache from keycloak container
+2021-05-28 23:16:40,751 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0273: Excluded subsystem webservices via jboss-deployment-structure.xml does not exist.
+2021-05-28 23:16:45,209 INFO  [org.keycloak.services] (ServerService Thread Pool -- 69) KC-SERVICES0001: Loading config from standalone.xml or domain.xml
+2021-05-28 23:16:46,790 INFO  [org.keycloak.url.DefaultHostnameProviderFactory] (ServerService Thread Pool -- 69) Frontend: <request>, Admin: <frontend>, Backend: <request>
+2021-05-28 23:16:48,210 WARN  [org.infinispan.encoding.impl.StorageConfigurationManager] (ServerService Thread Pool -- 69) ISPN000599: Configuration for cache 'realmRevisions' does not define the encoding for keys or values. If you use operations that require data conversion or queries, you should configure the cache with a specific MediaType for keys or values.
+2021-05-28 23:16:48,216 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 69) WFLYCLINF0002: Started realmRevisions cache from keycloak container
+2021-05-28 23:16:48,218 WARN  [org.infinispan.encoding.impl.StorageConfigurationManager] (ServerService Thread Pool -- 69) ISPN000599: Configuration for cache 'userRevisions' does not define the encoding for keys or values. If you use operations that require data conversion or queries, you should configure the cache with a specific MediaType for keys or values.
+2021-05-28 23:16:48,223 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 69) WFLYCLINF0002: Started userRevisions cache from keycloak container
+2021-05-28 23:16:48,225 WARN  [org.infinispan.encoding.impl.StorageConfigurationManager] (ServerService Thread Pool -- 69) ISPN000599: Configuration for cache 'authorizationRevisions' does not define the encoding for keys or values. If you use operations that require data conversion or queries, you should configure the cache with a specific MediaType for keys or values.
+2021-05-28 23:16:48,230 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 69) WFLYCLINF0002: Started authorizationRevisions cache from keycloak container
+2021-05-28 23:16:48,236 INFO  [org.keycloak.connections.infinispan.DefaultInfinispanConnectionProviderFactory] (ServerService Thread Pool -- 69) Node name: desktop-atef, Site name: null
+2021-05-28 23:16:50,306 INFO  [org.keycloak.connections.jpa.DefaultJpaConnectionProviderFactory] (ServerService Thread Pool -- 69) Database info: {databaseUrl=jdbc:mysql://localhost:3306/keycloak?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC, databaseUser=keycloak@localhost, databaseProduct=MySQL 8.0.21, databaseDriver=MySQL Connector/J mysql-connector-java-8.0.21 (Revision: 33f65445a1bcc544eb0120491926484da168f199)}
+2021-05-28 23:16:54,083 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 69) HHH000204: Processing PersistenceUnitInfo [
+	name: keycloak-default
+	...]
+2021-05-28 23:16:54,340 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 69) HHH000412: Hibernate Core {5.3.20.Final}
+2021-05-28 23:16:54,343 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 69) HHH000206: hibernate.properties not found
+2021-05-28 23:16:55,033 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 69) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2021-05-28 23:16:55,444 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 69) HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-05-28 23:16:55,560 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 69) Envers integration enabled? : true
+2021-05-28 23:16:56,453 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 69) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2021-05-28 23:16:56,561 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 69) HV000001: Hibernate Validator 6.0.21.Final
+2021-05-28 23:16:58,464 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 69) HHH000397: Using ASTQueryTranslatorFactory
+2021-05-28 23:17:05,778 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 69) RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 23:17:05,782 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 69) RESTEASY002200: Adding class resource org.keycloak.services.resources.ThemeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 23:17:05,785 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 69) RESTEASY002205: Adding provider class org.keycloak.services.error.KeycloakErrorHandler from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 23:17:05,786 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 69) RESTEASY002205: Adding provider class org.keycloak.services.filters.KeycloakSecurityHeadersFilter from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 23:17:05,786 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 69) RESTEASY002200: Adding class resource org.keycloak.services.resources.JsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 23:17:05,788 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 69) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.admin.AdminRoot from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 23:17:05,789 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 69) RESTEASY002210: Adding provider singleton org.keycloak.services.util.ObjectMapperResolver from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 23:17:05,789 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 69) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.WelcomeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 23:17:05,791 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 69) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RobotsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 23:17:05,795 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 69) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RealmsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-05-28 23:17:06,738 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0021: Registered web context: '/auth' for server 'default-server'
+2021-05-28 23:17:10,403 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 55) WFLYSRV0010: Deployed "keycloak-server.war" (runtime-name : "keycloak-server.war")
+2021-05-28 23:17:10,545 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2021-05-28 23:17:10,551 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 12.0.4 (WildFly Core 13.0.3.Final) started in 81602ms - Started 590 of 868 services (585 services are lazy, passive or on-demand)
+2021-05-28 23:17:10,612 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://0.0.0.0:9990/management
+2021-05-28 23:17:10,612 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://0.0.0.0:9990
